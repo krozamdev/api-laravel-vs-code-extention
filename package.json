@@ -1,0 +1,40 @@
+{
+  "name": "api-laravel",
+  "displayName": "Laravel snippet API Generate",
+  "description": "This snippet is designed to speed up API development in Laravel by providing a standard code template for handling API responses. It inserts a block of code that manages execution time, tries the main process, catches exceptions, and generates the appropriate API response.",
+  "version": "0.1.4",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "keywords": [
+    "laravel",
+    "api",
+    "snippet",
+    "code",
+    "php",
+    "development",
+    "response",
+    "template"
+  ],
+  "authors": [
+    {
+      "name": "krozamdev",
+      "email": "krozamdev@gmail.com",
+      "role": "Owner"
+    }
+  ],
+  "license": "MIT",
+  "publisher": "krozamdev",
+  "icon": "images/icon.jpg"
+}

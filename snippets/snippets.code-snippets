@@ -1,0 +1,15 @@
+{
+    "API Laravel Response Snippet": {
+        "prefix": "api-laravel",
+        "body": [
+            "\\$this->api->time();",
+            "try {",
+            "\t\\$data=null;",
+            "} catch (\\\\Exception \\$e) {",
+            "\t\\$data = \\$e;",
+            "}",
+            "return \\$this->api->data(\\$data)->generate();"
+        ],
+        "description": "A snippet for generating a standard API response handling structure in Laravel."
+    }
+}
